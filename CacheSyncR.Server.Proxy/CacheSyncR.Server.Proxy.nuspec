@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <title>CacheSyncR.Server.Proxy</title>
+    <version>$version$</version>
+    <authors>Marcel Wijnands</authors>
+    <projectUrl>https://github.com/xpericode/CacheSyncR</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+	<iconUrl>https://avatars3.githubusercontent.com/u/8470969?v=3&amp;s=48</iconUrl>
+    <description>$description$</description>
+    <copyright>$copyright$</copyright>
+    <tags>cache sync signalr</tags>
+  </metadata>
+</package>

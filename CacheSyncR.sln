@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheSyncR.Client", "CacheSyncR.Client\CacheSyncR.Client.csproj", "{9FD3C984-7064-481A-855D-3B610C86D1BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheSyncR.Server", "CacheSyncR.Server\CacheSyncR.Server.csproj", "{F2B76D65-235A-481F-BFA0-6B60F4A10504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheSyncR.Server.Proxy", "CacheSyncR.Server.Proxy\CacheSyncR.Server.Proxy.csproj", "{832BC31C-2F7D-44F6-A193-BAD1D32CD28F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheSyncR.Client.Tests", "CacheSyncR.Client.Tests\CacheSyncR.Client.Tests.csproj", "{620DB1FD-4C0E-45D5-B7A8-E793D69C9EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheSyncR.Server.Tests", "CacheSyncR.Server.Tests\CacheSyncR.Server.Tests.csproj", "{2D0D2DA9-963B-42C6-8C19-9529AAF4B8CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ADF5E242-D107-426B-ABBD-7523F25159BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheSyncR.Server.Proxy.Tests", "CacheSyncR.Server.Proxy.Tests\CacheSyncR.Server.Proxy.Tests.csproj", "{018A0124-F57A-4FDE-8DFE-842405B089C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FD3C984-7064-481A-855D-3B610C86D1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD3C984-7064-481A-855D-3B610C86D1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD3C984-7064-481A-855D-3B610C86D1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD3C984-7064-481A-855D-3B610C86D1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B76D65-235A-481F-BFA0-6B60F4A10504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B76D65-235A-481F-BFA0-6B60F4A10504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B76D65-235A-481F-BFA0-6B60F4A10504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B76D65-235A-481F-BFA0-6B60F4A10504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832BC31C-2F7D-44F6-A193-BAD1D32CD28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832BC31C-2F7D-44F6-A193-BAD1D32CD28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832BC31C-2F7D-44F6-A193-BAD1D32CD28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832BC31C-2F7D-44F6-A193-BAD1D32CD28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620DB1FD-4C0E-45D5-B7A8-E793D69C9EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620DB1FD-4C0E-45D5-B7A8-E793D69C9EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620DB1FD-4C0E-45D5-B7A8-E793D69C9EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620DB1FD-4C0E-45D5-B7A8-E793D69C9EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0D2DA9-963B-42C6-8C19-9529AAF4B8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0D2DA9-963B-42C6-8C19-9529AAF4B8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0D2DA9-963B-42C6-8C19-9529AAF4B8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0D2DA9-963B-42C6-8C19-9529AAF4B8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018A0124-F57A-4FDE-8DFE-842405B089C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018A0124-F57A-4FDE-8DFE-842405B089C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018A0124-F57A-4FDE-8DFE-842405B089C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018A0124-F57A-4FDE-8DFE-842405B089C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{620DB1FD-4C0E-45D5-B7A8-E793D69C9EDB} = {ADF5E242-D107-426B-ABBD-7523F25159BB}
+		{2D0D2DA9-963B-42C6-8C19-9529AAF4B8CD} = {ADF5E242-D107-426B-ABBD-7523F25159BB}
+		{018A0124-F57A-4FDE-8DFE-842405B089C9} = {ADF5E242-D107-426B-ABBD-7523F25159BB}
+	EndGlobalSection
+EndGlobal
