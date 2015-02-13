@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("XperiCode.CacheSyncR.Server")]
+[assembly: AssemblyTitle("XperiCode.CacheSyncR.Core")]
 [assembly: AssemblyDescription("Keep your local cache in sync with a remote data source using SignalR.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("XperiCode")]
-[assembly: AssemblyProduct("CacheSyncR.Server")]
+[assembly: AssemblyProduct("CacheSyncR.Core")]
 [assembly: AssemblyCopyright("Copyright © Marcel Wijnands 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("07844f9d-8fe3-4d4b-80cd-107a37ee37d5")]
+[assembly: Guid("26729351-8ada-4f8d-a339-4faa31e56767")]
 
 // Version information for an assembly consists of the following four values:
 //

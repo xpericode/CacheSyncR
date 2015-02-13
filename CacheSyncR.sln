@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ADF5E242
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheSyncR.Server.Proxy.Tests", "CacheSyncR.Server.Proxy.Tests\CacheSyncR.Server.Proxy.Tests.csproj", "{018A0124-F57A-4FDE-8DFE-842405B089C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheSyncR.Core", "CacheSyncR.Core\CacheSyncR.Core.csproj", "{EFF884F2-532A-486F-9B17-9799E509C755}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{018A0124-F57A-4FDE-8DFE-842405B089C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{018A0124-F57A-4FDE-8DFE-842405B089C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{018A0124-F57A-4FDE-8DFE-842405B089C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFF884F2-532A-486F-9B17-9799E509C755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF884F2-532A-486F-9B17-9799E509C755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF884F2-532A-486F-9B17-9799E509C755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF884F2-532A-486F-9B17-9799E509C755}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
