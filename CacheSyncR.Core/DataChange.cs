@@ -1,9 +1,11 @@
 ﻿using System;
+using Newtonsoft.Json;
 
 namespace XperiCode.CacheSyncR.Core
 {
     public class DataChange
     {
+        [JsonConstructor]
         public DataChange(string type, string key, string group)
         {
             this.Type = type;
@@ -18,8 +20,11 @@ namespace XperiCode.CacheSyncR.Core
             this.Group = group;
         }
 
+        [JsonProperty]
         public string Type { get; private set; }
+        [JsonProperty]
         public string Key { get; private set; }
+        [JsonProperty]
         public string Group { get; private set; }
     }
 }
